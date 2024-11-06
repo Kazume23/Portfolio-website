@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "title": "Pierwszy post na blogu",
+        "excerpt": "To jest krótki opis pierwszego posta.",
+        "content": "Tutaj znajduje się pełna treść pierwszego posta.",
+        "date": "2024-11-01"
+    },
+    {
+        "id": 2,
+        "title": "Drugi post na blogu",
+        "excerpt": "To jest krótki opis drugiego posta.",
+        "content": "Tutaj znajduje się pełna treść drugiego posta.",
+        "date": "2024-11-05"
+    }
+]
