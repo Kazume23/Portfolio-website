@@ -1,28 +1,18 @@
-// src/controllers/BlogController.php
 <?php
+// src/controllers/blogController.php
 
-class BlogController {
-    // Pobieranie dwóch najnowszych postów
-    public function showLatestPosts() {
-        $posts = $this->getLatestPosts();
-        include 'views/templates/latest_blogs.php'; // Ładowanie widoku z postami
-    }
+// src/controllers/blogController.php
 
-    // Pobieranie wszystkich postów
-    public function showAllPosts() {
-        $posts = $this->getAllPosts();
-        include 'views/templates/all_blogs.php'; // Ładowanie widoku z wszystkimi postami
+function getLatestBlogs()
+{
+    $filePath = __DIR__ . '/../../content/blogs.json'; // Ścieżka do pliku JSON
+    if (file_exists($filePath)) {
+        $json = file_get_contents($filePath);
+        $blogs = json_decode($json, true); // Dekodowanie JSON do tablicy PHP
+        if (is_array($blogs)) {
+            return array_slice($blogs, 0, 2); // Pobierz dwa najnowsze wpisy
+        }
     }
+    return []; // Zwróć pustą tablicę, jeśli brak danych
 
-    // Funkcja do pobrania dwóch najnowszych postów
-    private function getLatestPosts() {
-        $posts = $this->getAllPosts();
-        return array_slice($posts, 0, 2); // Zwracamy tylko dwa najnowsze
-    }
-
-    // Funkcja do pobrania wszystkich postów
-    private function getAllPosts() {
-        $data = file_get_contents('content/blogs.json'); // Odczyt danych z pliku JSON
-        return json_decode($data, true); // Dekodowanie JSON do tablicy PHP
-    }
 }

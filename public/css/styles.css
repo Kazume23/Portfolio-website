@@ -1,0 +1,48 @@
+/* public/css/styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+#latest-blogs {
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+#latest-blogs h2 {
+    margin-bottom: 15px;
+}
+
+#latest-blogs ul {
+    list-style: none;
+    padding: 0;
+}
+
+#latest-blogs li {
+    padding: 10px;
+    background-color: #fff;
+    margin-bottom: 10px;
+}
