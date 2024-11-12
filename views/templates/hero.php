@@ -45,10 +45,10 @@
             </p>
 
             <div class="hero-sci">
-                <a href="https://github.com/SAI127001" target="_blank"><i class='bx bxl-github'></i></a>
-                <a href="https://www.linkedin.com/in/terukula-sai/" target="_blank"><i class='bx bxl-linkedin'></i></a>
-                <a href="https://wa.me/9987886552" target="_blank"><i class='bx bxl-whatsapp'></i></a>
-                <a href="https://www.instagram.com/sai_127.0.0.1/" target="_blank"><i class='bx bxl-instagram'></i></a>
+                <a href="" target="_blank"><i class='bx bxl-github'></i></a>
+                <a href="" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                <a href="" target="_blank"><i class='bx bxl-whatsapp'></i></a>
+                <a href="" target="_blank"><i class='bx bxl-instagram'></i></a>
             </div>
             <a href="" class="btn-box" download="Sai CV/Resume">Download CV</a>
         </div>
