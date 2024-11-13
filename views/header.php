@@ -20,3 +20,5 @@
             <a href="#contact" style="--i:5;">Contact</a>
         </nav>
     </header>
+    <script src="<?php echo BASE_URL; ?>/js/navbar.js"></script>
+</body>

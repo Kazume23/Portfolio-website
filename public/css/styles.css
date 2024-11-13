@@ -10,26 +10,81 @@ body {
     color: rgb(255, 255, 255);
 }
 
+/* ---------------------------Blog----------------------- */
+
 
 #latest-blogs {
+    padding: 20px 10%;
+}
+
+.blog-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.blog-post {
+    background-color: #222;
     padding: 20px;
-    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-#latest-blogs h2 {
-    margin-bottom: 15px;
+.blog-post:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 15px rgba(0, 255, 0, 0.4);
 }
 
-#latest-blogs ul {
-    list-style: none;
-    padding: 0;
-}
-
-#latest-blogs li {
-    padding: 10px;
-    background-color: #fff;
+.blog-post h2 {
+    font-size: 32px;
+    color: #fff;
     margin-bottom: 10px;
+    text-shadow: 3px 3px 5px green;
 }
+
+.blog-post .excerpt {
+    font-size: 16px;
+    color: #ccc;
+    margin-bottom: 20px;
+}
+
+.blog-post .date {
+    font-size: 14px;
+    color: #999;
+    margin-bottom: 20px;
+}
+
+.read-more {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    color: green;
+    text-decoration: none;
+    border: 2px solid green;
+    border-radius: 30px;
+    padding: 10px 20px;
+    transition: all 0.3s ease;
+}
+
+.read-more:hover {
+    background-color: green;
+    color: black;
+    box-shadow: 0 0 20px green;
+}
+
+@media (max-width: 768px) {
+    #latest-blogs {
+        padding: 20px 5%;
+    }
+    
+    .blog-list {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+/* ---------------------------Header----------------------- */
 
 .header {
     position: fixed;
@@ -38,12 +93,21 @@ body {
     width: 100%;
     padding: 20px 10%;
     background: transparent; 
-    background: linear-gradient(45deg, rgba(0, 0, 0, 0.548), green, rgba(0, 0, 0, 0.548)); 
+    background: linear-gradient(45deg, rgba(0, 0, 0, 0.548), rgb(4, 82, 4), rgba(0, 0, 0, 0.548)); 
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 100;
     color: green;
+}
+
+.header.hidden-header .logo,
+.header.hidden-header .navbar a {
+    opacity: 0; 
+}
+
+.logo, .navbar a {
+    transition: opacity 0.3s ease;
 }
 
 .navbar a {
@@ -79,6 +143,25 @@ body {
     background-clip: border-box;
     -webkit-background-clip: text;
 }
+
+.navbar {
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.navbar.hidden {
+    transform: translateY(-100%); 
+    opacity: 0; 
+}
+
+.header {
+    transition: background-color 0.3s ease, opacity 0.3s ease;
+}
+
+.header.hidden-header {
+    background-color: transparent; /* Ukrywa tło nagłówka */
+    opacity: 0; /* Ustala przezroczystość nagłówka */
+}
+
 /* ---------------------------Hero----------------------- */
 
 .hero {
