@@ -2,15 +2,17 @@
 
 <!DOCTYPE html>
 <html lang="pl">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Moje Portfolio</title>
     <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/styles.css">
 </head>
+
 <body>
-<header class="header">
-        <a href="#" class="logo">{Portfolio} </a>
+    <header class="header">
+    <a href="#" class="logo glitch-effect" data-text="Portfolio">Portfolio</a>
 
         <nav class="navbar">
             <a href="#home" style="--i:1;" class="active">Home</a>
