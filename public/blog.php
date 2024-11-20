@@ -5,26 +5,25 @@ include '../src/controllers/blogController.php';
 $blogs = getAllBlogs(); // Funkcja wczytująca wszystkie wpisy
 
 include __DIR__ . '/../views/header.php';
-
 ?>
 
 <main>
-    <h1>Blog</h1>
-    <section id="blog-list">
-        <?php if (!empty($blogs)): ?>
-            <ul>
+    <section id="latest-blogs">
+        <h1>Blog</h1>
+        <div class="blog-list">
+            <?php if (!empty($blogs)): ?>
                 <?php foreach ($blogs as $blog): ?>
-                    <li>
+                    <div class="blog-post">
                         <h2><?php echo htmlspecialchars($blog['title']); ?></h2>
-                        <p><?php echo htmlspecialchars(substr($blog['content'], 0, 100)) . '...'; ?></p>
-                        <small><?php echo htmlspecialchars($blog['date']); ?></small>
-                        <a href="single.php?id=<?php echo $blog['id']; ?>">Czytaj więcej</a>
-                    </li>
+                        <p class="excerpt"><?php echo htmlspecialchars($blog['excerpt']); ?></p>
+                        <p class="date"><?php echo htmlspecialchars($blog['date']); ?></p>
+                        <a href="single.php?id=<?php echo $blog['id']; ?>" class="read-more">Czytaj więcej</a>
+                    </div>
                 <?php endforeach; ?>
-            </ul>
-        <?php else: ?>
-            <p>Brak wpisów na blogu.</p>
-        <?php endif; ?>
+            <?php else: ?>
+                <p>Brak wpisów na blogu.</p>
+            <?php endif; ?>
+        </div>
     </section>
 </main>
 

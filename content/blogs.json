@@ -1,16 +1,31 @@
 [
     {
         "id": 1,
-        "title": "Pierwszy post na blogu",
-        "excerpt": "To jest krótki opis pierwszego posta.",
-        "content": "Tutaj znajduje się pełna treść pierwszego posta.",
+        "title": "Gotowanie Risotto: Przewodnik krok po kroku",
+        "excerpt": "Risotto to klasyczne włoskie danie, które każdy powinien umieć przygotować. Oto przepis na idealne risotto.",
+        "content": "Risotto to jedno z najbardziej popularnych włoskich dań, które można przygotować na wiele różnych sposobów. W tym przepisie zaprezentuję klasyczną wersję risotto z parmezanem. Do przygotowania risotto będziesz potrzebować: ryżu Arborio, bulionu, cebuli, masła, parmezanu, białego wina i oliwy z oliwek. Proces gotowania wymaga cierpliwości, ale efekt końcowy to pyszna i kremowa potrawa. \n\nKroki przygotowania: \n1. Podsmaż cebulę na oliwie z oliwek i masła. \n2. Dodaj ryż Arborio i smaż przez 2-3 minuty. \n3. Stopniowo dodawaj gorący bulion, mieszając w międzyczasie. \n4. Na końcu dodaj parmezan i dopraw solą oraz pieprzem do smaku. \n5. Gotowe risotto podawaj natychmiast, ozdobione świeżymi ziołami i parmezanem.",
         "date": "2024-11-01"
     },
     {
         "id": 2,
-        "title": "Drugi post na blogu",
-        "excerpt": "To jest krótki opis drugiego posta.",
-        "content": "Tutaj znajduje się pełna treść drugiego posta.",
+        "title": "Systemy sieciowe i rozkład na podsieci: Podstawy",
+        "excerpt": "Zrozumienie systemów sieciowych oraz zasad rozkładu na podsieci jest kluczowe dla każdego specjalisty IT. W tym artykule wyjaśniam podstawy tego tematu.",
+        "content": "Systemy sieciowe są fundamentem współczesnej komunikacji. Aby zarządzać ruchem w sieci, ważne jest zrozumienie procesu rozkładu adresów IP na podsieci. Rozkład na podsieci pozwala na efektywne wykorzystanie dostępnych adresów IP, co jest kluczowe w większych sieciach. W tym artykule omówię, jak rozdzielić adresy IP na różne podsieci, wyjaśnię pojęcie maski podsieci oraz pokażę, jak obliczyć liczby dostępnych adresów w podsieci. \n\nPodstawowe kroki: \n1. Rozpocznij od podzielenia sieci na podsieci. \n2. Określ maskę podsieci (np. 255.255.255.0). \n3. Oblicz liczbę możliwych podsieci oraz dostępnych adresów IP. \n4. Przydziel każdej podsieci unikalny zakres adresów. \n5. Używaj narzędzi do obliczeń podsieci, aby uprościć proces. \n\nZrozumienie tych zagadnień jest niezbędne do pracy w większych środowiskach sieciowych.",
+        "date": "2024-11-05"
+    
+    },
+    {
+        "id": 3,
+        "title": "Gotowanie Risotto: Przewodnik krok po kroku",
+        "excerpt": "Risotto to klasyczne włoskie danie, które każdy powinien umieć przygotować. Oto przepis na idealne risotto.",
+        "content": "Risotto to jedno z najbardziej popularnych włoskich dań, które można przygotować na wiele różnych sposobów. W tym przepisie zaprezentuję klasyczną wersję risotto z parmezanem. Do przygotowania risotto będziesz potrzebować: ryżu Arborio, bulionu, cebuli, masła, parmezanu, białego wina i oliwy z oliwek. Proces gotowania wymaga cierpliwości, ale efekt końcowy to pyszna i kremowa potrawa. \n\nKroki przygotowania: \n1. Podsmaż cebulę na oliwie z oliwek i masła. \n2. Dodaj ryż Arborio i smaż przez 2-3 minuty. \n3. Stopniowo dodawaj gorący bulion, mieszając w międzyczasie. \n4. Na końcu dodaj parmezan i dopraw solą oraz pieprzem do smaku. \n5. Gotowe risotto podawaj natychmiast, ozdobione świeżymi ziołami i parmezanem.",
+        "date": "2024-11-01"
+    },
+    {
+        "id": 4,
+        "title": "Systemy sieciowe i rozkład na podsieci: Podstawy",
+        "excerpt": "Zrozumienie systemów sieciowych oraz zasad rozkładu na podsieci jest kluczowe dla każdego specjalisty IT. W tym artykule wyjaśniam podstawy tego tematu.",
+        "content": "Systemy sieciowe są fundamentem współczesnej komunikacji. Aby zarządzać ruchem w sieci, ważne jest zrozumienie procesu rozkładu adresów IP na podsieci. Rozkład na podsieci pozwala na efektywne wykorzystanie dostępnych adresów IP, co jest kluczowe w większych sieciach. W tym artykule omówię, jak rozdzielić adresy IP na różne podsieci, wyjaśnię pojęcie maski podsieci oraz pokażę, jak obliczyć liczby dostępnych adresów w podsieci. \n\nPodstawowe kroki: \n1. Rozpocznij od podzielenia sieci na podsieci. \n2. Określ maskę podsieci (np. 255.255.255.0). \n3. Oblicz liczbę możliwych podsieci oraz dostępnych adresów IP. \n4. Przydziel każdej podsieci unikalny zakres adresów. \n5. Używaj narzędzi do obliczeń podsieci, aby uprościć proces. \n\nZrozumienie tych zagadnień jest niezbędne do pracy w większych środowiskach sieciowych.",
         "date": "2024-11-05"
     }
 ]

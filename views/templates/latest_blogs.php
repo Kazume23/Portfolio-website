@@ -1,5 +1,6 @@
 <?php if (!empty($latestBlogs)): ?>
     <section id="latest-blogs">
+        <br><br><br>
         <h2>Ostatnie wpisy na blogu</h2>
         <ul>
             <?php foreach ($latestBlogs as $blog): ?>
