@@ -6,8 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-
-    <link rel="icon" type="png|image" href="/IMAGES/sailogo.png">
     <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/styles.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
@@ -19,7 +17,7 @@
     <section id="hero" class="hero">
 
         <div class="hero-content" data-scroll data-scroll-speed="-5">
-            <h3 class="mu">ree</h3>
+            <h3 class="mu">Hello traveler</h3>
             <h1>Jakub Witek</h1>
             <h3>And I'm a <span class="pro-text">
                     <script>

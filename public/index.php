@@ -14,6 +14,7 @@ $latestBlogs = getLatestBlogs();
 // Załaduj widok strony
 include BASE_PATH . '/views/header.php';
 include BASE_PATH . '/views/templates/hero.php';
+include BASE_PATH . '/views/about.php';
 include BASE_PATH . '/views/templates/latest_blogs.php';
 include BASE_PATH . '/views/footer.php';
 ?>
