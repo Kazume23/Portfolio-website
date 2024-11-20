@@ -12,7 +12,7 @@
 
 <body>
     <header class="header">
-    <a href="#" class="logo glitch-effect" data-text="Portfolio">Portfolio</a>
+        <a href="#" class="logo glitch-effect" data-text="Portfolio">Portfolio</a>
 
         <nav class="navbar">
             <a href="#home" style="--i:1;" class="active">Home</a>

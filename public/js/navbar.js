@@ -2,7 +2,7 @@ let lastScrollTop = 0; // Store the last scroll position
 const navbar = document.querySelector('.navbar');
 const header = document.querySelector('.header');
 const hideThreshold = 100; // Minimum scroll distance before navbar hides
-const showThreshold = 20; // Navbar will show when scrolling back to the top
+const showThreshold = 2000; // Navbar will show when scrolling back to the top
 let isScrolling = false; // Flag to track if scrolling is active
 
 window.addEventListener('scroll', function() {
